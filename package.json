@@ -1,5 +1,5 @@
 {
-  "name": "temp",
+  "name": "mycli77",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,16 @@
   },
   "keywords": [],
   "author": {{author}},
-  "license": "ISC"
+  "license": "ISC",
+  "bin": {
+    "mycli": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^5.0.0"
+  },
+  "devDependencies": {
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.7.6",
+    "ora": "^4.0.3"
+  }
 }
